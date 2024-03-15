@@ -1,0 +1,170 @@
+
+.montserrat-header,
+h1, h2, h3
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.roboto-regular 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  *
+{   
+    font-family: "roboto";
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(16, 6, 37);
+    
+}
+header
+{
+    padding: 16px 0;
+    background-color: rgb(56, 0, 94);
+    color: #fff;
+}
+header nav ul,
+header div .container h1
+{   
+    background-color: rgb(56, 0, 94);
+    color: #fff;
+}
+header nav li
+{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    background-color: rgb(56, 0, 94);
+}
+header nav li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(56, 0, 94);
+}
+.container,
+.cards-list
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container, 
+section .container
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .dragon-yugioh{
+    margin: auto;
+    padding: 0 10%;
+}
+section .container
+{
+    align-items: center;
+}
+section
+{
+    color: rgb(177, 97, 252);
+}
+section p 
+{
+    margin-bottom: 8px;
+}
+.cards-list img
+{
+    height: 150px;
+}
+.cards-list li
+{
+    display: inline-block;
+    padding: 10px;
+}
+#drake-type h3
+{
+    text-align: center;
+    font-display: fixed;
+}
+#drake-type
+{
+    display: inline-block;
+    text-align: center;
+    margin: 0 25%;
+    justify-content: center;
+    text-size-adjust: 26px;
+}
+#drake-type img
+{
+    width: 250px;
+    padding: 6px;
+    border: 0 20px;
+}
+section #baby-dragon
+{
+    text-align: center;
+}
+h1
+{
+    font-size: 34px;
+}
+h2
+{
+    font-size: 28px;
+}
+h3
+{
+    font-size: 24px;
+}
+#contact .container
+{
+    display: block;
+}
+.sugestions
+{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button
+{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: azure;
+}
+form textarea
+{
+    resize: none;
+    height: 180px;
+}
+form button
+{
+    display: inline;
+    width: 13%;
+}
+form button:hover
+{
+    background-color: rgb(177, 97, 252);
+}
+input:focus, 
+textarea:focus
+{
+    outline-color: rgb(177, 97, 252);
+    outline-style: dashed;
+    outline-width: 2px;
+}
+footer{
+    background-color: rgb(177, 97, 252);
+    color: #fff;
+    padding: 16px 0;
+}
